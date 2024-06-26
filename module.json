@@ -6,5 +6,30 @@
     "minimum": "11",
     "verified": "11"
   },
-  "url": "https://github.com/codemonkey1972/bluebook-solo-superheroes"
+  "url": "https://github.com/codemonkey1972/bluebook-solo-superheroes",
+  "packs": [
+    {
+        "name": "items",
+        "label": "Bluebook - Items",
+        "path": "./packs/items.db",
+        "type": "Item",
+        "module": "bluebook-solo-superheroes",
+        "system": "megs"
+      },
+      {
+        "name": "characters",
+        "label": "Bluebook - Characters",
+        "path": "./packs/characters.db",
+        "type": "Actor",
+        "module": "bluebook-solo-superheroes"
+      },
+      {
+        "name": "scenes",
+        "label": "Bluebook - Scenes",
+        "path": "./packs/scenes.db",
+        "type": "Scene",
+        "module": "bluebook-solo-superheroes"
+      }
+  
+   ]
 }
