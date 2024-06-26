@@ -1,0 +1,10 @@
+{
+  "id": "bluebook-solo-superheroes",
+  "title": "Bluebook Solo Superheroes",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "url": "https://github.com/codemonkey1972/bluebook-solo-superheroes"
+}
