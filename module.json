@@ -9,32 +9,29 @@
   "url": "https://github.com/codemonkey1972/bluebook-solo-superheroes",
   "packs": [
     {
-        "name": "bluebook-items",
-        "label": "Bluebook - Items",
-        "path": "./packs/items.db",
-        "type": "Item",
-        "module": "bluebook-solo-superheroes"
+      "name": "bluebook-items",
+      "label": "Bluebook - Items",
+      "path": "./packs/items.db",
+      "type": "Item",
+      "module": "bluebook-solo-superheroes"
+    },
+    {
+      "name": "bluebook-tables",
+      "label": "Bluebook - Tables",
+      "path": "./packs/tables.db",
+      "type": "Table",
+      "module": "bluebook-solo-superheroes"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Bluebook - Solo Superheroes",
+      "sorting": "a",
+      "color": "#205eee",
+      "ownership": {
+        "PLAYER": "NONE"
       },
-      {
-        "name": "bluebook-tables",
-        "label": "Bluebook - Scenes",
-        "path": "./packs/scenes.db",
-        "type": "Scene",
-        "module": "bluebook-solo-superheroes"
-      }
-   ],
-   "packFolders": [
-      {
-        "name": "Bluebook - Solo Superheroes",
-        "sorting": "a",
-        "color": "#205eee",
-        "ownership": {
-            "PLAYER": "NONE"
-        },
-        "packs": [
-            "solo-items",
-            "maps"
-        ]
-      }
-   ]
+      "packs": ["solo-items", "maps"]
+    }
+  ]
 }
