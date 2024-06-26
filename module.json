@@ -7,20 +7,17 @@
     "verified": "11"
   },
   "url": "https://github.com/codemonkey1972/bluebook-solo-superheroes",
+  "manifest": "https://raw.githubusercontent.com/codemonkey1972/bluebook-solo-superheroes/main/module.json",
   "packs": [
     {
-      "name": "bluebook-items",
-      "label": "Bluebook - Items",
-      "path": "./packs/items.db",
-      "type": "Item",
-      "module": "bluebook-solo-superheroes"
-    },
-    {
       "name": "bluebook-tables",
-      "label": "Bluebook - Tables",
-      "path": "./packs/tables.db",
-      "type": "Table",
-      "module": "bluebook-solo-superheroes"
+      "label": "Bluebook Tables",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "packFolders": [
@@ -28,10 +25,10 @@
       "name": "Bluebook - Solo Superheroes",
       "sorting": "a",
       "color": "#205eee",
-      "ownership": {
-        "PLAYER": "NONE"
-      },
-      "packs": ["solo-items", "maps"]
+      "packs": [
+        "bluebook-tables"
+      ],
+      "folders": []
     }
   ]
 }
